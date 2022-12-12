@@ -261,6 +261,9 @@ footer p {
         font-size: 20px;
         font-family: 'Zen Dots', cursive ;   
     }
+        table tr {
+        font-size: 13px;
+    }
     #adv p {
         padding: 10px;
         font-family: 'Zen Dots', cursive ;
