@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/stylei.css">
+    <link rel="icon" type="image/x-icon" href="/photos/favicon.ico">
     <title>AzeExchange</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="page">
@@ -52,25 +54,25 @@
                 <tr>
                     <td><img src="/photos/bitcoin.png"></td>
                     <td>Bitcoin</td>
-                    <td></td>
+                    <td ><span id="btc"></span>$</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td><img src="/photos/etherium.png"></td>
                     <td>Etherium</td>
-                    <td></td>
+                    <td ><span id="eth"></span>$</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td><img src="/photos/bnb.png"></td>
                     <td>Binance Coin</td>
-                    <td></td>
+                    <td ><span id="bnb"></span>$</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td><img src="/photos/decentraland.png"></td>
                     <td>Decentraland</td>
-                    <td></td>
+                    <td><span id="mana"></span>$</td>
                     <td></td>
                 </tr>
             </table>
@@ -85,7 +87,7 @@
             <div id="nft1">
                 <div class="box">
                     <p>Ape Prime NFT</p>
-                    <img src="photos/nft1.JPG">
+                    <img src="photos/nft1.jpg">
                     <p class="price">Price : 3.4 ETH</p>
                     <button class="button">Buy Now</button>
                 </div>
@@ -97,13 +99,14 @@
                 </div> 
                <div class="box">
                     <p>Rainboy NFT</p>
-                    <img src="photos/nft2.JPG">
+                    <img src="photos/nft2.jpg">
                     <p class="price">Price : 2.1 ETH</p>
                     <button class="button">Buy Now</button>
                 </div>
             </div>
         </div>
         <footer>
+            <p id="contact">Contacts:</p>
             <table>
                 <tr>
                     <td><iconify-icon icon="material-symbols:location-on-outline" style="color: white;" width="36" height="36"></iconify-icon>
@@ -122,9 +125,11 @@
                     <td>@AZExchange</td>
                 </tr>
             </table>
-            <p>Created by Nabi Shirinov. © 2022</p>
+            <p id="rights">Created by Nabi Shirinov. © 2022</p>
         </footer>
+        
     </div>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script src="liveprice.js"></script>
 </body>
 </html>
