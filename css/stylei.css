@@ -63,6 +63,7 @@ nav p{
     align-items: flex-start;
 }
 #dropdown a{
+    text-decoration: none;
     color: white;
     font-family:'Zen Dots', cursive ;
     font-size: 15px;
