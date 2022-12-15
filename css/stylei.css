@@ -54,8 +54,23 @@ nav p{
     font-size: 20px;
     margin: 20px;
 }
-
-
+#dropdown{
+    width: 100%;
+    height: 40px;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+#dropdown a{
+    color: white;
+    font-family:'Zen Dots', cursive ;
+    font-size: 15px;
+}
+#dropdown li{
+    display: inline;
+    padding: 10px;
+}
 #adv {
     width: 100%;
     height: 30px;
