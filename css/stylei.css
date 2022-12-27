@@ -84,7 +84,6 @@ nav p{
 }
 #adv p {
     padding: 10px;
-    font-family: 'Zen Dots', cursive ;
     font-size: 15px;
 }
 #hed {
@@ -104,9 +103,7 @@ nav p{
     background-color:#252525;
     padding: 15px;
     width: 50%;
-    color: #FFFFFF;
     font-size: 30px;
-    font-family: 'Zen Dots', cursive ;   
 }
 .a {
     padding-top: 10px;
@@ -127,9 +124,7 @@ nav p{
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
     padding: 10px;
- 
 }
-
 .a button:hover {
   box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
   transition-duration: .1s;
@@ -150,11 +145,13 @@ nav p{
     border-radius: 20px;
     margin-bottom: 50px;
 }
-#currency p {
+p {
     color: #FFFFFF;
+    font-family: 'Zen Dots', cursive ;   
+}
+#currency p {
     font-size: 30px;
     padding: 30px 15px 15px 15px;
-    font-family: 'Zen Dots', cursive ;   
 }
 table {
     display: flex;
@@ -185,9 +182,7 @@ table img {
 }
 #trade p {
     margin-left: 15px;
-    font-family: 'Zen Dots', cursive ;  
     font-size: 25px;
-    color: #FFFFFF;
 }
 #trade img {
    margin: auto;
@@ -209,15 +204,14 @@ table img {
     font-family: 'Zen Dots', cursive ;  
 }
 #nft1{
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #icn {
     display: none;
 }
 .box {
-
 width: 400px;
 height: 400px;
 background-color: #FFFFFF;
@@ -253,15 +247,15 @@ footer{
     height: 200px;
 }
 #contact {
-    color:#FFFFFF;
-    font-family: 'Zen Dots', cursive ;  
     padding-left: 15px;
     font-size: 25px;
 }
-footer  #rights{
-    color:#FFFFFF;
+#rights{
     font-size: 15px;
     margin: auto;
+}
+#tabb th,td {
+    padding: 15px 0 0 10px;
 }
 @media screen and (max-width:880px ) {
     #right img{
@@ -275,13 +269,10 @@ footer  #rights{
         background-color:#252525;
         padding: 15px;
         width: 50%;
-        color: #FFFFFF;
         font-size: 20px;
-        font-family: 'Zen Dots', cursive ;   
     }
     #adv p {
         padding: 10px;
-        font-family: 'Zen Dots', cursive ;
         font-size: 10px;
     }
     table tr {
@@ -308,9 +299,7 @@ footer  #rights{
 
     #trade p {
         margin-left: 15px;
-        font-family: 'Zen Dots', cursive ;  
         font-size: 20px;
-        color: #FFFFFF;
     }
     #trade img {
        margin: auto;
@@ -338,5 +327,8 @@ footer  #rights{
     }
     nav img {
         margin: 0px;
+    }
+    #rights{
+         font-size: 10px;
     }
   }
