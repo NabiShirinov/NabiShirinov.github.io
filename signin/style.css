@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-
 body {
     padding :0;
     margin :0;
+    height: 100;
     background: linear-gradient(90deg,#5643CC, #252525);
 }
 .box {
@@ -22,8 +22,6 @@ body {
     align-items: center;
     text-align: center;
     background-color: rgba(255, 255, 255, 1);
-
-
 }
 #box2{
     background-color: rgba(255, 255, 255, 0.75);
@@ -35,7 +33,6 @@ body {
 }
 p{
     font-family:'Zen Dots', cursive ;
-
 }
 #box1 input{
     font-size: 25px;
@@ -80,13 +77,6 @@ a{
     font-size: 10px;
     color: #5643CC;
 }
-footer {
-    display: flex;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    margin-top: 45%;
-}
 #logos{
     display: flex;
     flex-direction: row;
@@ -109,9 +99,9 @@ button:hover{
     cursor: pointer;
 }
 @media screen and (max-width:880px ){
+
     .boxs{
         width: 70%;
-        height: 70%;
     }
      footer p {
        display: none;
